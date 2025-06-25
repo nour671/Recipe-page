@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family:'MyFont', sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'MyFont', sans-serif;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('/webfonts/fonts/outfit/static/Outfit-Black.ttf') format('truetype');
+  /* font-weight: 700; */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'secondFont';
+  src: url('/webfonts/fonts/outfit/static/Outfit-Light.ttf') format('truetype');
+  /* font-weight: 400; */
+  font-style: normal;
+}
+
+
+p,
+li,
+.item {
+  font-family:'secondFont', sans-serif;
+  font-weight: 800;
+}
+
+span {
+  font-family: 'MyFont', sans-serif;
+  /* font-weight: bold; */
+}
+
+
+
+/* ................. */
+
+@media screen and (max-width: 576px) {
+  .home .image img {
+    width: 100% !important;
+    border-radius:0 !important;
+    
+
+  }
+  .home {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .home .container {
+    width: 100% !important;
+    padding: 0 !important;
+    border-radius:0 !important;
+
+  }
+  .home .image {
+    border-radius:0 !important;
+    padding:0 !important;
+  
+  }
+  
+  .home .inner {
+    border-radius:0 !important;
+  }
+}
+.home {
+  background-color: #f3e5d8;
+}
+.home .home-container {
+  border-radius: 20px;
+  
+}
+.home .image img {
+  border-radius: 10px ;
+}
+
+.home .Preparation h4 {
+  color: #673141;
+  font-size: large;
+  font-weight: 600;
+}
+.home .Preparation li::marker {
+  color: #673141;
+
+}
+.home li::marker {
+  color: #7a3a3a;
+
+}
+.home p {
+  color: #1c2022;
+}
+.home h3 {
+  color: #7a3a3a;
+  font-weight: 600;
+}
+.home .nutrition .num {
+  color: #7a3a3a;
+  font-weight: 600;
+  width: 5%;
+}
+
+.container .Preparation h2 {
+  color: #1e1e1e;
+  font-size: 3rem;
+  font-weight: 700;
+}
